@@ -1,5 +1,5 @@
-interface youTubeProps{
-  id: string | number,
+export interface youTubeProps{
+  id?: string | number,
   titulo: string,
   videoId: string
 }
@@ -8,8 +8,8 @@ interface youTubeProps{
 export const youTube: youTubeProps[]=[
   {
   id: 1,
-  titulo: 'samy Dana',
-  videoId: '8AY3_R79Osk'
+  titulo: 'Sweet Child O Mine - Guns N Roses',
+  videoId: 'uhiamj_I7II'
   },
   {
     id: 2,
@@ -18,9 +18,19 @@ export const youTube: youTubeProps[]=[
   },
   {
     id: 3,
-    titulo: 'Ritchie Menina Veneno Karaokê',
+    titulo: 'Menina Veneno Karaokê',
     videoId: '25hHYmowa38'
-  }
+  },
+  {
+    id: 4,
+    titulo: 'Easy On Me - Adele',
+    videoId: 'M7Qg5H0luo0'
+  },
+  {
+    id: 5,
+    titulo: 'Radiohead - Creep ',
+    videoId: '3WLy3AblvmQ'
+  },
 ]
 
 

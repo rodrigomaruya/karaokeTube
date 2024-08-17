@@ -1,0 +1,23 @@
+.videos-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.videos-cards--image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.videos-cards-title{
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
